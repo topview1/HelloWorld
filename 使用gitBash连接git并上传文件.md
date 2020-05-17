@@ -3,7 +3,7 @@
 
 在连接之前我们需要的资源：
 * 1.拥有一个github账户  https://github.com/join
-![](https://img-blog.csdnimg.cn/20200517120313890.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120313890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 2.安装git   下载地址 https://github.com/waylau/git-for-win/
 
@@ -43,27 +43,25 @@ The key's randomart image is:
 cat ~/.ssh/id_rsa.pub
 ```
 
-* 我们会得到如下结果，选中的部分复制
-![15bd58dd4165dce2ac30272ed7a7beea.png](en-resource://database/5432:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120531128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 点击右上角的账户设定按钮（Account Settings）
 
-![499025e99197a1ca17cf966deba5ec88.png](en-resource://database/5426:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120630178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 打开SSH菜单
 
-![2eb5ad79f9670a3a0e459dc6c5582336.png](en-resource://database/5428:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120713311.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 点击新建SSH Key
 
-![131d2db5a68215d4959eb968d9ecab4b.png](en-resource://database/5430:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120742528.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 
 * Title 随便命名 Key 里粘贴刚刚你你复制的那串东西
 
 
-![c60435bf623b001c153764c4870a5c33.png](en-resource://database/5434:1)
-
+![\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-FtiQSzmj-1589688168442)(en-resource://database/5434:1)\]](https://img-blog.csdnimg.cn/20200517120800203.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 点击Add SSH Key，返回到gitbash
 
@@ -78,98 +76,92 @@ Are you sure you want to continue connecting (yes/no)?  输入yes
 * 密码是第三步设置的密码
 
 * 结果如下表示成功连接
-![38b770cabd92ab2ab1d631902f278fef.png](en-resource://database/5436:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517120835395.png#pic_center)
 
 
 ## 6.在github里创建仓库
 * 点击New repository
-![13dd7fcd2a020c6cca4ca490ff809077.png](en-resource://database/5438:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121013522.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
+
+
 
 * 命名仓库名字（此处我命名为HelloWorld）description可以不写
 
-![adde384232fda7a44691ac22d815b9ab.png](en-resource://database/5440:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121035530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 点击 create repository
 
 * 创建完成
-![262767855cafbe53f27001ab691bbddc.png](en-resource://database/5442:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121053466.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 
 ## 7.clone仓库 
 **从git服务器克隆一个一模一样的版本库到本地,复制的是整个版本库，叫做clone**
 * 点击Clone or download-> Use SSH
 
-![5596a85d74dbf6f66ca8792c9dc05a8b.png](en-resource://database/5444:1)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121117456.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 *  复制选中的路径
-![71cc14a300499b72d46218211d4208b3.png](en-resource://database/5446:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121136288.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 
 * 返回git bash，输入git clone + 粘贴复制选中的路径
-
-![7aab4b815f796fefc180cd11317e53ba.png](en-resource://database/5448:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121158253.png#pic_center)
 
 * clone完成
 
  那么我们clone的仓库在本地那个地方？
 * clone到本地的路径一般是cmd的开始路径
-
-![ea9a457e6bef96aeadd127c55640bc08.png](en-resource://database/5450:1)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051712121522.png#pic_center)
 
 * 我们打开c盘这个路径，我们发现这个仓库就在这
-![6114ffef3c1219d3e2ac7bb097203f79.png](en-resource://database/5452:1)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121230106.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 因为没有传文件，所以本地仓库是空的
-![70edfd2b63b76a259e4dad29fa312fd6.png](en-resource://database/5454:0)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121245944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 ## 8.在本地仓库上传文件并发布到github
 * 返回gitbash，进入仓库目录，在输入vi 文件名
-![51125b1c8af9f122ae80503924a724ac.png](en-resource://database/5456:0)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121301508.png#pic_center)
 * 进入vim编辑器进行编写，输入i进入编写状态
-![88629f67a4c007b535555d30930f6267.png](en-resource://database/5458:0)
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121324349.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 * 输入以下代码（可以随便输入），输入完毕后按esc进入命令行状态
 
-![33db43ab933e320c9b3177424647fb5f.png](en-resource://database/5460:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121346247.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
+
 
 * 在按ZZ 保存退出
-
-![237c53c6329afe97acc1014264efde90.png](en-resource://database/5462:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121359920.png#pic_center)
 
 * 在打开c盘git仓库路径可以发现，php已经创建完毕
 
-![6b1e255e84a6c4a382b7a0b7890a1486.png](en-resource://database/5464:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121415225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 
 * 返回gitbash，输入git status 添加php文件到git仓库
 
-![36256b8e0d435acb1b3d08b8c412d8eb.png](en-resource://database/5466:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121430525.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 **我们发现有报错，原因是因为在windows和linux环境不同，换行符不同，git默认是linux环境**
 
 * 修改git设置
 
-![a26e813fbff3844d2348f12770e4d23d.png](en-resource://database/5468:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121457573.png#pic_center)
 
 * 再一次进行添加php文件,没有报错
-![12f7d47c674414987e2f9a2d5fc30990.png](en-resource://database/5470:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121511889.png#pic_center)
 
 
 * 将 hello_word.php提交至git仓库
-![df0dbf38295bb045b765bf4777cd83ea.png](en-resource://database/5472:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121531179.png#pic_center)
 
 * 查看日志，可以查看提交账户和时间
 
-![3a7ea3a2c6c5cb9255874222b2b733b5.png](en-resource://database/5474:0)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051712154666.png#pic_center)
 * 此时的github仓库是没有这个文件的，因为没有更新仓库，输入git push进行更新
 
-![8bb5a04e90d8fef65b22615bcf3a9f0d.png](en-resource://database/5476:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121600882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
 
 * 查看github仓库，更新成功
-* 
-![cfd53b9decfce1ddd34a5ab9ac3dd6ec.png](en-resource://database/5478:0)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517121613532.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzMzMTIwMA==,size_16,color_FFFFFF,t_70#pic_center)
