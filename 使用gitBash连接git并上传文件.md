@@ -3,7 +3,7 @@
 
 在连接之前我们需要的资源：
 * 1.拥有一个github账户  https://github.com/join
-![eacb3092199f351c510e9651564e89cf.png](en-resource://database/5424:1)
+![](https://img-blog.csdnimg.cn/20200517120313890.png)
 
 * 2.安装git   下载地址 https://github.com/waylau/git-for-win/
 
